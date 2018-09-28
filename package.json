@@ -1,0 +1,27 @@
+{
+  "name": "whfp-teamspeak",
+  "version": "1.0.0",
+  "description": "Webhookify plugin to control a TeamSpeak client via the ClientQuery API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangxx/whfp-teamspeak.git"
+  },
+  "keywords": [
+    "webhookify-plugin"
+  ],
+  "author": "jangxx <jangxx@protonmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jangxx/whfp-teamspeak/issues"
+  },
+  "homepage": "https://github.com/jangxx/whfp-teamspeak#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "node-teamspeak": "git+https://github.com/jangxx/node-teamspeak.git",
+    "webhookify-plugin": "git+ssh://git@github.com/jangxx/webhookify-plugin.git"
+  }
+}
